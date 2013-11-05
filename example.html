@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<p id='bold-me'>Hello, my name is Ben. I will highlight each time I write the word ben. Ben BEN, ben. Yup, my name is BEN.</p>
+
+<script src='build/build.js'></script>
+<script>
+var el = document.getElementById('bold-me');
+var str = el.innerText;
+var highlight = require('string-highlight');
+var altered = highlight(str, 'ben', '<b>', '</b>');
+el.innerHTML = altered;
+</script>
+</body>
+</html>

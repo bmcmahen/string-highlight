@@ -1,0 +1,17 @@
+{
+  "name": "string-highlight",
+  "repo": "bmcmahen/string-highlight",
+  "description": "add specified tags to matching all substr instances within a string",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "bmcmahen/string-occurrence": "*",
+    "bmcmahen/string-splice": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
