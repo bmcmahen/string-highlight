@@ -9,9 +9,15 @@
 
     $ component install bmcmahen/string-highlight
 
-## API
+## Example
 
-
+```javascript
+var el = document.getElementById('bold-me');
+var str = el.innerText;
+var highlight = require('string-highlight');
+var altered = highlight(str, 'ben', '<b>', '</b>');
+el.innerHTML = altered;
+```
 
 ## License
 
